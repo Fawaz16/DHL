@@ -1,0 +1,176 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    text-decoration: none;
+}
+nav{
+   display: flex; 
+   justify-content: space-between;
+   padding-top: 20px;
+   
+}
+nav h1{
+padding-left: 60px;
+color: #8c5ef3;
+font-size: 25px;
+font-weight: 100;
+}
+
+nav ul{
+display:flex;
+justify-content: space-around;
+width: 60%;
+}
+
+nav button {
+    background-color: #8c5ef3;
+    border: none;
+    height: 40px;
+    border-radius: 10px;
+    width: 90px;
+    color: white;
+    
+
+}
+nav a button{
+    cursor: pointer;
+
+}
+form {
+    max-width: 50%;
+ 
+    padding: 50px;
+  margin-top: 50px;
+   border: 1px solid #8c5ef3;
+   box-sizing: border-box;
+   width: 90%;
+   margin-left: 140px;
+   border-radius: 25px;
+}
+form label{
+   
+    color: #8c5ef3;
+}
+form input{
+    width: 90%;
+    padding: 20px;
+    margin: 20px 0px;
+    border: 1px solid #8c5ef3;
+    border-radius: 20px;
+}
+#checkbox {
+    position: relative;
+    bottom: 35px;
+    right: 110px;
+
+}
+.hamburger{
+    display: none;
+}
+.close{
+    display: none;
+}
+.minidiv ul{
+        display:flex;
+        justify-content: space-around;
+        width: 100%;
+}
+.minidiv{
+    display: flex; 
+    justify-content: space-between;
+   width: 90%; 
+    
+ }
+ button {
+    display: block;
+    background-color: #8c5ef3;
+    width: 80%;
+    height: 35px;
+    border: none;
+    border-radius: 20px;
+  color: aliceblue;
+
+}
+
+@media (max-width:765px){
+    .minidiv {
+        position: absolute;
+        background-color: #8c5ef3;
+        transition: 0.3s ease-in-out;
+        width: 40%;
+        margin-top: 30px;
+transform: translate(-768px);
+    }
+    .minidiv button {
+        display: none;
+    }
+    .minidiv ul{
+        flex-direction: column;
+        line-height: 25px;
+padding-top: 15px;        
+padding-left: 20px;
+    }
+    .minidiv ul li a{
+        color: aliceblue;
+    }
+    nav h1{
+        padding-left: 30px;
+        color: #8c5ef3;
+        font-size: 25px;
+        font-weight: 100;
+        }
+   
+    form {
+        max-width: 90%;
+      margin-top: 50px;
+       border: 1px solid #8c5ef3;
+       box-sizing: border-box;
+       width: 90%;
+       margin-left: 20px;
+       border-radius: 25px;
+    }
+    form label{
+       
+        color: #8c5ef3;
+    }
+    form input{
+        width: 90%;
+        padding: 20px;
+        margin: 20px 0px;
+        border: 1px solid #8c5ef3;
+        border-radius: 20px;
+    }
+    #checkbox {
+        position: relative;
+        bottom: 35px;
+        left: 10px;
+}
+.hamburger div{
+    background-color: #8c5ef3;
+    height: 3px;
+    width: 25px;
+    margin: 3px;
+
+}
+.hamburger{
+    display: block;
+    
+}
+.close {
+    display: none;
+}
+button {
+    display: block;
+    background-color: #8c5ef3;
+    width: 80%;
+    height: 35px;
+    border: none;
+    border-radius: 20px;
+  color: aliceblue;
+  
+}
+
+
+
+}
